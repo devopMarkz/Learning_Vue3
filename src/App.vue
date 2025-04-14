@@ -5,11 +5,12 @@
   // import Exemplo02 from "./components/Exemplo02Condicional.vue";
   //import Exemplo03 from "./components/Exemplo03Laco.vue";
   // import Exemplo04 from "./components/Exemplo04HTML.vue";
-  import Exemplo05 from "./components/Exemplo05Model.vue";
+  // import Exemplo05 from "./components/Exemplo05Model.vue";
+  import Exemplo06 from './components/Exemplo06Classe.vue'
 </script>
 
 <!-- TEMPLATE -->
 <!-- HTML -->
 <template>
-  <Exemplo05></Exemplo05>
+  <Exemplo06></Exemplo06>
 </template>
