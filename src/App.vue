@@ -12,7 +12,9 @@
   // import Exemplo08Test from './components/Exemplo08TesteTeclado.vue'
   // import Exemplo09 from './components/Exemplo09Submit.vue'
   import { ref } from 'vue';
-import Exemplo10 from './components/Formulario.vue'
+  // import Exemplo10 from './components/Formulario.vue'
+  // import Exemplo11 from './components/Exemplo11Lifecycle.vue'
+  import Exemplo12Props1 from './components/Exemplo12Props1.vue';
 
   const txt = ref('aaaa');
 </script>
@@ -20,9 +22,5 @@ import Exemplo10 from './components/Formulario.vue'
 <!-- TEMPLATE -->
 <!-- HTML -->
 <template>
-  <v-app>
-    {{ txt }}
-  <Exemplo10></Exemplo10>
-  </v-app>
- 
+  <Exemplo12Props1></Exemplo12Props1>
 </template>
