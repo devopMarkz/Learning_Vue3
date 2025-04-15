@@ -1,5 +1,5 @@
 <!-- SCRIPT -->
-<script setup>
+<script setup lang="ts">
   // Importação dos componentes
   // import Exemplo01 from "./components/Exemplo01Interpolacao.vue";
   // import Exemplo02 from "./components/Exemplo02Condicional.vue";
@@ -10,11 +10,19 @@
   // import Exemplo07 from './components/Exemplo07Click.vue'
   // import Exemplo08 from './components/Exemplo08Teclado.vue'
   // import Exemplo08Test from './components/Exemplo08TesteTeclado.vue'
-  import Exemplo09 from './components/Exemplo09Submit.vue'
+  // import Exemplo09 from './components/Exemplo09Submit.vue'
+  import { ref } from 'vue';
+import Exemplo10 from './components/Formulario.vue'
+
+  const txt = ref('aaaa');
 </script>
 
 <!-- TEMPLATE -->
 <!-- HTML -->
 <template>
-  <Exemplo09></Exemplo09>
+  <v-app>
+    {{ txt }}
+  <Exemplo10></Exemplo10>
+  </v-app>
+ 
 </template>
