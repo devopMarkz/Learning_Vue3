@@ -14,7 +14,8 @@
   import { ref } from 'vue';
   // import Exemplo10 from './components/Formulario.vue'
   // import Exemplo11 from './components/Exemplo11Lifecycle.vue'
-  import Exemplo12Props1 from './components/Exemplo12Props1.vue';
+  //import Exemplo12Props1 from './components/Exemplo12Props1.vue';
+  import Exemplo13Rotas from './components/Exemplo13Rotas.vue';
 
   const txt = ref('aaaa');
 </script>
@@ -22,5 +23,5 @@
 <!-- TEMPLATE -->
 <!-- HTML -->
 <template>
-  <Exemplo12Props1></Exemplo12Props1>
+  <Exemplo13Rotas></Exemplo13Rotas>
 </template>
